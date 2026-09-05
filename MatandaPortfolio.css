@@ -177,31 +177,34 @@
     }
 
     /* SKILLS */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 1.5rem;
-    }
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1.5rem;
+}
 
-    .skill-card {
-      background: white;
-      padding: 2rem 1.5rem;
-      text-align: center;
-      border-radius: 16px;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.06);
-      transition: all 0.4s;
-    }
+.skill-card {
+  background: white;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+  transition: all 0.4s;
+  font-size: 0.85rem;
+  word-wrap: break-word;
+  overflow: hidden;
+}
 
-    .skill-card:hover {
-      transform: scale(1.08);
-      color: var(--secondary);
-    }
+.skill-card:hover {
+  transform: scale(1.08);
+  color: var(--secondary);
+}
 
-    .skill-card i {
-      font-size: 2.8rem;
-      margin-bottom: 1rem;
-      color: var(--secondary);
-    }
+.skill-card i {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: var(--secondary);
+}
 
     /* PROJECTS */
     .projects-grid {
